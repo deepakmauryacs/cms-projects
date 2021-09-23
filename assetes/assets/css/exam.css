@@ -1,0 +1,241 @@
+/*.cont{
+  		box-shadow: 0 0 10px #cccccc;
+  		background-color: #fff;
+}
+.qsn{
+	background-color: #ffb606; 
+	padding: 10px;
+	font-size: 16px;
+}
+.box{
+	border: 2px solid; 
+	border-color: #ffb606; 
+	margin-top: -10px; 
+	padding-left: 10px;
+}
+.bt{
+	margin-top: 5px;
+}*/
+
+.cont{
+  		box-shadow: 0 0 10px #cccccc;
+  		background-color: #fff;
+  		margin-top: 30px;
+}
+.qsn{
+	background-color: #ffb606; 
+	padding: 10px;
+	font-size: 16px;
+	margin-top: 20px;
+}
+
+.boxs{
+	border: 2px solid; 
+	border-color: #ffb606; 
+	margin-top: -15px; 
+	padding-left: 10px;
+}
+.bt{
+	margin-top: 5px;
+}
+.in{
+  min-height: 20px;
+}
+.btns{
+	background-color: #ffb606;
+	border: none;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-radius: 5px;
+}
+
+
+.bg{
+	background-color: #F3F1F2;
+}
+.ltn{
+	   padding-top: 50px;
+	   position: relative;
+    line-height: 48px;
+    color: #333333;
+    font-size: 40px;
+    font-weight: bold;
+    margin: 0px;
+    display: inline-block;
+    border-bottom: 5px solid;
+    border-color: #FFB241;
+    padding-bottom: 26px;
+    font-family: "Roboto",sans-serif;
+}
+.nbg{
+	 /* The image used */
+  background-image: url("Board.jpg");
+  border: 15px solid #fff;
+  /* Full height */
+  height: 400px; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.img-box{
+  height: 370px;
+  width: 100%;
+  background-color: rgba(0,0,0,0.5);
+}
+#grad1 {
+  height: 400px;
+  width: 100%;
+  border: 15px solid #fff;
+  background-color: red; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to bottom right, #eb692d 65%, #ffb241); /* Standard syntax (must be last) */
+}
+.ttl{
+  color: #fff;
+  padding-top: 20px;
+  font-size: 20px;
+}
+.desc{
+  color: #fff;
+  font-size: 17px;
+}
+.marq{
+  padding: 40px;
+}
+.sec{
+  padding-bottom: 40px;
+  margin-top: 50px;
+}
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  color: #000;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+#video1{
+  text-decoration: none;
+  color: #4da6ff;
+  border-radius: 5px;
+  display: block;
+  padding: 10px;
+}
+#video1:hover{
+  background-color: #4da6ff;
+  color: #fff;
+  transition: 2s;
+}
+/*
+    Created on : 2016-12-16, 13:40:46
+    Author     : Sławomir Netteria.NET https://netteria.net
+*/
+
+#closer_videopopup{
+    position: absolute;
+    display: table-cell;
+    right: 2%;
+    top: 2%;
+    font-size: 32px;
+    text-align: center;
+    vertical-align: middle;
+    padding: auto;
+    cursor: default;
+    background: none;
+    border: none;
+    color: #ffffff;
+
+
+    z-index: 100004;
+}
+#opct{
+    position: fixed;
+    z-index: 100000;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left:0;
+    bottom: 0;
+    right: 0;
+    filter: alpha(opacity=90);
+    -moz-opacity: 0.90;
+    opacity: 0.9;
+}
+#videCont{
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    padding-top: 25px;
+    height: 0;
+    margin: auto;
+    max-width: 720px;
+    height: 0;
+    height: auto !important;
+}
+#yt_video{
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+}
+iframe{
+   position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 1 !important;
+}
+video{
+    position: absolute;
+    top: 15%;
+    left: 0;
+    width: 100%;
+    opacity: 1 !important;
+
+}
+#video1{
+    cursor: pointer; cursor: hand;
+}
